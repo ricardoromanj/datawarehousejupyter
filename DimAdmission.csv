@@ -1,0 +1,12 @@
+TypeAdmission,PatientDisposition,AbortionEditIndicator,EmergencyIndicator
+Emergency,Home or Self Care,0,1
+Urgent,Home or Self Care,0,0
+Emergency,Skilled Nursing Home,0,1
+Emergency,Home w/ Home Health Services,0,1
+Elective,Home or Self Care,0,0
+Urgent,Home or Self Care,0,1
+Emergency,Home or Self Care,0,0
+Emergency,Short-term Hospital,0,0
+Emergency,Court/Law Enforcement,0,1
+Elective,Home or Self Care,0,1
+Elective,Expired,0,0

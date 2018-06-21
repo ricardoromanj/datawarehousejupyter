@@ -1,0 +1,52 @@
+DrgCode,DrgDescription,MdcCode,MdcDescription,SeverityIllnessCode,SeverityIllnessDescription,MedicalSurgicalDescription
+753,Bipolar disorders,19,Mental Diseases and Disorders,2,Moderate,Medical
+753,Bipolar disorders,19,Mental Diseases and Disorders,1,Minor,Medical
+141,Asthma,4,Diseases and Disorders of the Respiratory System,1,Minor,Medical
+53,Seizure,1,Diseases and Disorders of the Nervous System,2,Moderate,Medical
+203,Chest pain,5,Diseases and Disorders of the Circulatory System,1,Minor,Medical
+199,Hypertension,5,Diseases and Disorders of the Circulatory System,3,Major,Medical
+139,Other pneumonia,4,Diseases and Disorders of the Respiratory System,3,Major,Medical
+53,Seizure,1,Diseases and Disorders of the Nervous System,3,Major,Medical
+134,Pulmonary embolism,4,Diseases and Disorders of the Respiratory System,1,Minor,Medical
+203,Chest pain,5,Diseases and Disorders of the Circulatory System,2,Moderate,Medical
+463,Kidney & urinary tract infections,11,Diseases and Disorders of the Kidney and Urinary Tract,1,Minor,Medical
+251,Abdominal pain,6,Diseases and Disorders of the Digestive System,1,Minor,Medical
+424,Other endocrine disorders,10,"Endocrine, Nutritional and Metabolic Diseases and Disorders",1,Minor,Medical
+41,Nervous system malignancy,1,Diseases and Disorders of the Nervous System,3,Major,Medical
+460,RENAL FAILURE,11,Diseases and Disorders of the Kidney and Urinary Tract,3,Major,Medical
+141,Asthma,4,Diseases and Disorders of the Respiratory System,2,Moderate,Medical
+47,Transient ischemia,1,Diseases and Disorders of the Nervous System,2,Moderate,Medical
+463,Kidney & urinary tract infections,11,Diseases and Disorders of the Kidney and Urinary Tract,2,Moderate,Medical
+45,CVA & precerebral occlusion w infarct,1,Diseases and Disorders of the Nervous System,2,Moderate,Medical
+760,Other mental health disorders,19,Mental Diseases and Disorders,2,Moderate,Medical
+138,Bronchiolitis & RSV pneumonia,4,Diseases and Disorders of the Respiratory System,2,Moderate,Medical
+141,Asthma,4,Diseases and Disorders of the Respiratory System,3,Major,Medical
+138,Bronchiolitis & RSV pneumonia,4,Diseases and Disorders of the Respiratory System,1,Minor,Medical
+565,False labor,14,"Pregnancy, Childbirth and the Puerperium",1,Minor,Medical
+844,Partial thickness burns without skin graft,22,Burns,1,Minor,Medical
+53,Seizure,1,Diseases and Disorders of the Nervous System,1,Minor,Medical
+243,Other esophageal disorders,6,Diseases and Disorders of the Digestive System,1,Minor,Medical
+723,Viral illness,18,"Infectious and Parasitic Diseases, Systemic or Unspecified Sites",1,Minor,Medical
+750,Schizophrenia,19,Mental Diseases and Disorders,1,Minor,Medical
+381,Major skin disorders,9,"Diseases and Disorders of the Skin, Subcutaneous Tissue and Breast",2,Moderate,Medical
+750,Schizophrenia,19,Mental Diseases and Disorders,2,Moderate,Medical
+750,Schizophrenia,19,Mental Diseases and Disorders,3,Major,Medical
+844,Partial thickness burns without skin graft,22,Burns,2,Moderate,Medical
+754,Depression except major depressive disorder,19,Mental Diseases and Disorders,2,Moderate,Medical
+754,Depression except major depressive disorder,19,Mental Diseases and Disorders,3,Major,Medical
+754,Depression except major depressive disorder,19,Mental Diseases and Disorders,1,Minor,Medical
+566,Other antepartum diagnoses,14,"Pregnancy, Childbirth and the Puerperium",3,Major,Medical
+204,Syncope & collapse,5,Diseases and Disorders of the Circulatory System,1,Minor,Medical
+251,Abdominal pain,6,Diseases and Disorders of the Digestive System,2,Moderate,Medical
+140,Chronic obstructive pulmonary disease,4,Diseases and Disorders of the Respiratory System,2,Moderate,Medical
+560,Vaginal delivery,14,"Pregnancy, Childbirth and the Puerperium",1,Minor,Medical
+540,Cesarean delivery,14,"Pregnancy, Childbirth and the Puerperium",1,Minor,Surgical
+254,Other digestive system diagnoses,6,Diseases and Disorders of the Digestive System,3,Major,Medical
+540,Cesarean delivery,14,"Pregnancy, Childbirth and the Puerperium",2,Moderate,Surgical
+54,Migraine & other headaches,1,Diseases and Disorders of the Nervous System,3,Major,Medical
+52,Nontraumatic stupor & coma,1,Diseases and Disorders of the Nervous System,4,Extreme,Medical
+140,Chronic obstructive pulmonary disease,4,Diseases and Disorders of the Respiratory System,3,Major,Medical
+560,Vaginal delivery,14,"Pregnancy, Childbirth and the Puerperium",2,Moderate,Medical
+204,Syncope & collapse,5,Diseases and Disorders of the Circulatory System,3,Major,Medical
+254,Other digestive system diagnoses,6,Diseases and Disorders of the Digestive System,1,Minor,Medical
+566,Other antepartum diagnoses,14,"Pregnancy, Childbirth and the Puerperium",2,Moderate,Medical

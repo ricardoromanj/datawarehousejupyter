@@ -1,0 +1,18 @@
+PaymentTypology1,PaymentTypology2,PaymentTypology3
+Medicaid,,
+Medicare,,
+Medicare,Self-Pay,
+Medicaid,Self-Pay,
+Private Health Insurance,Self-Pay,
+Blue Cross/Blue Shield,Self-Pay,
+Self-Pay,,
+Medicare,Medicaid,Self-Pay
+Federal/State/Local/VA,Self-Pay,
+Medicaid,Medicaid,
+Medicare,Medicare,
+Blue Cross/Blue Shield,,
+Medicare,Medicaid,
+Private Health Insurance,,
+Medicare,Blue Cross/Blue Shield,
+Federal/State/Local/VA,,
+Miscellaneous/Other,,

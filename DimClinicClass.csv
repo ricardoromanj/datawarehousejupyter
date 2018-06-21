@@ -1,0 +1,34 @@
+DiagnosisCode,DiagnosisDescription,ProcedureCode,ProcedureDescription
+657,Mood disorders,0,NO PROC
+128,Asthma,0,NO PROC
+83,Epilepsy; convulsions,0,NO PROC
+102,Nonspecific chest pain,0,NO PROC
+98,Essential hypertension,0,NO PROC
+123,Influenza,0,NO PROC
+103,Pulmonary heart disease,0,NO PROC
+159,Urinary tract infections,0,NO PROC
+251,Abdominal pain,0,NO PROC
+48,Thyroid disorders,0,NO PROC
+42,Secondary malignancies,0,NO PROC
+157,Acute and unspecified renal failure,0,NO PROC
+112,Transient cerebral ischemia,0,NO PROC
+109,Acute cerebrovascular disease,0,NO PROC
+654,Developmental disorders,0,NO PROC
+83,Epilepsy; convulsions,216,RESP INTUB/MECH VENTIL
+125,Acute bronchitis,0,NO PROC
+83,Epilepsy; convulsions,227,"OT DX PRC (INTERVW,EVAL"
+184,Early or threatened labor,0,NO PROC
+240,Burns,214,"TRACTN, SPLNT, OT WOUND"
+138,Esophageal disorders,0,NO PROC
+128,Asthma,231,OTHER THERAPEUTIC PRCS
+7,Viral infection,0,NO PROC
+659,Schizophrenia and other psychotic disorders,0,NO PROC
+181,Other complications of pregnancy,0,NO PROC
+245,Syncope,0,NO PROC
+185,Prolonged pregnancy,137,OT PRCS TO ASSIST DELIV
+189,Previous C-section,134,CESAREAN SECTION
+143,Abdominal hernia,0,NO PROC
+187,Malposition; malpresentation,134,CESAREAN SECTION
+84,Headache; including migraine,0,NO PROC
+95,Other nervous system disorders,0,NO PROC
+181,Other complications of pregnancy,134,CESAREAN SECTION
