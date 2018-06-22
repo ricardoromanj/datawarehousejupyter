@@ -1,4 +1,4 @@
-TypeAdmission,PatientDisposition,AbortionEditIndicator,EmergencyIndicator
+TypeAdmission,PatientDisposition,AbortionIndicator,EmergencyIndicator
 Emergency,Home or Self Care,0,1
 Urgent,Home or Self Care,0,0
 Emergency,Skilled Nursing Home,0,1
