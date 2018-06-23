@@ -97,12 +97,12 @@ class DischargeRecord():
         if type(zipcode) is str and zipcode == 'OOS':
             return 0
         else:
-            return zipcode
+            return int(zipcode)
 
     def conv_money(self, amount):
         amountStr = str(amount)
-        amountStr = replace('$', '')
-        amountStr = replace(',', '')
+        amountStr = amountStr.replace('$', '')
+        amountStr = amountStr.replace(',', '')
         return amountStr
 
     def get_column_indeces(self):
@@ -191,6 +191,7 @@ class DimAPRClassificationRecord(DischargeRecord):
             APR_MDC_DESC,
             APR_SEVERITY_ILLNESS_CODE,
             APR_SEVERITY_ILLNESS_DESC,
+            APR_RISK_MORTALITY,
             APR_MEDICAL_SURGICAL_DESC
             ]
         self.COLUMN_NAMES = [
@@ -391,24 +392,42 @@ class FactDischarge(DischargeRecord):
             'TotalCosts'
         ]
         self.COLUMN_TYPES = {
-                'DischargeYear': 'int64',
-                        'AttendingLicenseNo': 'str',
-                        'OperatingLicenseNo': 'str',
-                        'OtherLicenseNo': 'str',
-                                'TypeAdmission': 'str',
-                                'PatientDisposition': 'str',
-
-
-                    'HealthServiceArea': 'str',
-                    'HospitalCounty': 'str',
-                    'FacilityID': 'int64',
-                    'FacilityName': 'str',
+            'DischargeYear': 'int64',
+            'AttendingLicenseNo': 'str',
+            'OperatingLicenseNo': 'str',
+            'OtherLicenseNo': 'str',
+            'TypeAdmission': 'str',
+            'PatientDisposition': 'str',
+            'DrgCode': 'int64',
+            'DrgDescription': 'str',
+            'MdcCode': 'int64',
+            'MdcDescription': 'str',
+            'SeverityIllnessCode': 'int64',
+            'SeverityIllnessDescription': 'str',
+            'RiskOfMortality': 'str',
+            'MedicalSurgicalDescription': 'str',
+            'DiagnosisCode': 'int64',
+            'DiagnosisDescription': 'str',
+            'ProcedureCode': 'int64',
+            'ProcedureDescription': 'str',
+            'PaymentTypology1': 'str',
+            'PaymentTypology2': 'str',
+            'PaymentTypology3': 'str',
+            'AgeGroup': 'str',
+            'Gender': 'str',
+            'Race': 'str',
+            'Ethnicity': 'str',
+            'HealthServiceArea': 'str',
+            'HospitalCounty': 'str',
+            'FacilityID': 'int64',
+            'FacilityName': 'str',
             'BirthWeight': 'float64',
             'LengthStay': 'float64'
         }
         self.COLUMN_CONV = {
-                        'AbortionIndicator': self.conv_indToInt,
-                        'EmergencyIndicator': self.conv_indToInt,
+            'AbortionIndicator': self.conv_indToInt,
+            'EmergencyIndicator': self.conv_indToInt,
             'TotalCharges': self.conv_money,
-            'TotalCosts': self.conv_money
+            'TotalCosts': self.conv_money,
+            'ZipCode': self.conv_zipcode
         }
